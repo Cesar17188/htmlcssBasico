@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* se pintan todos los p despues de un h2 */
+/* h2 + p { 
+    color: red;
+}
+ */
+
+
+ /* se pintan todos los p */
+ /* h2 ~ p {
+     color: red;
+ } */
+
+
+  /* se pintan todos los p (hijo) que esten dentro de un contenedor div (padre) directo*/
+ /* div > p {
+    color: red;
+ } */
+
+ /* desenciente, todas las etiquetas p dentro de un contendor div */
+ div p {
+     color: red;
+ }
